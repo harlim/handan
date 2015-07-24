@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDD58321B63059300E836A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD58311B63059300E836A8 /* main.m */; };
+		DDDD58351B63059300E836A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD58341B63059300E836A8 /* AppDelegate.m */; };
+		DDDD58381B63059300E836A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD58371B63059300E836A8 /* ViewController.m */; };
+		DDDD583B1B63059300E836A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58391B63059300E836A8 /* Main.storyboard */; };
+		DDDD583D1B63059300E836A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDD583C1B63059300E836A8 /* Images.xcassets */; };
+		DDDD58401B63059300E836A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDD583E1B63059300E836A8 /* LaunchScreen.xib */; };
+		DDDD584C1B63059300E836A8 /* _______20_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD584B1B63059300E836A8 /* _______20_____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDDD58461B63059300E836A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDD58241B63059300E836A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDD582B1B63059300E836A8;
+			remoteInfo = "邯郸规划设计院20层多功能厅";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDDD582C1B63059300E836A8 /* 邯郸规划设计院20层多功能厅.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "邯郸规划设计院20层多功能厅.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDD58301B63059300E836A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDD58311B63059300E836A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDDD58331B63059300E836A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDDD58341B63059300E836A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDDD58361B63059300E836A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDDD58371B63059300E836A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDDD583A1B63059300E836A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDDD583C1B63059300E836A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDDD583F1B63059300E836A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDDD58451B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "邯郸规划设计院20层多功能厅Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDD584A1B63059300E836A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDD584B1B63059300E836A8 /* _______20_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______20_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDD58291B63059300E836A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD58421B63059300E836A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDD58231B63059300E836A8 = {
+			isa = PBXGroup;
+			children = (
+				DDDD582E1B63059300E836A8 /* 邯郸规划设计院20层多功能厅 */,
+				DDDD58481B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests */,
+				DDDD582D1B63059300E836A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDD582D1B63059300E836A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD582C1B63059300E836A8 /* 邯郸规划设计院20层多功能厅.app */,
+				DDDD58451B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDD582E1B63059300E836A8 /* 邯郸规划设计院20层多功能厅 */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD58331B63059300E836A8 /* AppDelegate.h */,
+				DDDD58341B63059300E836A8 /* AppDelegate.m */,
+				DDDD58361B63059300E836A8 /* ViewController.h */,
+				DDDD58371B63059300E836A8 /* ViewController.m */,
+				DDDD58391B63059300E836A8 /* Main.storyboard */,
+				DDDD583C1B63059300E836A8 /* Images.xcassets */,
+				DDDD583E1B63059300E836A8 /* LaunchScreen.xib */,
+				DDDD582F1B63059300E836A8 /* Supporting Files */,
+			);
+			path = "邯郸规划设计院20层多功能厅";
+			sourceTree = "<group>";
+		};
+		DDDD582F1B63059300E836A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD58301B63059300E836A8 /* Info.plist */,
+				DDDD58311B63059300E836A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDDD58481B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD584B1B63059300E836A8 /* _______20_____Tests.m */,
+				DDDD58491B63059300E836A8 /* Supporting Files */,
+			);
+			path = "邯郸规划设计院20层多功能厅Tests";
+			sourceTree = "<group>";
+		};
+		DDDD58491B63059300E836A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD584A1B63059300E836A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDD582B1B63059300E836A8 /* 邯郸规划设计院20层多功能厅 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDD584F1B63059300E836A8 /* Build configuration list for PBXNativeTarget "邯郸规划设计院20层多功能厅" */;
+			buildPhases = (
+				DDDD58281B63059300E836A8 /* Sources */,
+				DDDD58291B63059300E836A8 /* Frameworks */,
+				DDDD582A1B63059300E836A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "邯郸规划设计院20层多功能厅";
+			productName = "邯郸规划设计院20层多功能厅";
+			productReference = DDDD582C1B63059300E836A8 /* 邯郸规划设计院20层多功能厅.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDDD58441B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDD58521B63059300E836A8 /* Build configuration list for PBXNativeTarget "邯郸规划设计院20层多功能厅Tests" */;
+			buildPhases = (
+				DDDD58411B63059300E836A8 /* Sources */,
+				DDDD58421B63059300E836A8 /* Frameworks */,
+				DDDD58431B63059300E836A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDD58471B63059300E836A8 /* PBXTargetDependency */,
+			);
+			name = "邯郸规划设计院20层多功能厅Tests";
+			productName = "邯郸规划设计院20层多功能厅Tests";
+			productReference = DDDD58451B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDD58241B63059300E836A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = wharlim;
+				TargetAttributes = {
+					DDDD582B1B63059300E836A8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DDDD58441B63059300E836A8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DDDD582B1B63059300E836A8;
+					};
+				};
+			};
+			buildConfigurationList = DDDD58271B63059300E836A8 /* Build configuration list for PBXProject "邯郸规划设计院20层多功能厅" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDD58231B63059300E836A8;
+			productRefGroup = DDDD582D1B63059300E836A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDD582B1B63059300E836A8 /* 邯郸规划设计院20层多功能厅 */,
+				DDDD58441B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDD582A1B63059300E836A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDD583B1B63059300E836A8 /* Main.storyboard in Resources */,
+				DDDD58401B63059300E836A8 /* LaunchScreen.xib in Resources */,
+				DDDD583D1B63059300E836A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD58431B63059300E836A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDD58281B63059300E836A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDD58381B63059300E836A8 /* ViewController.m in Sources */,
+				DDDD58351B63059300E836A8 /* AppDelegate.m in Sources */,
+				DDDD58321B63059300E836A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDD58411B63059300E836A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDD584C1B63059300E836A8 /* _______20_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDDD58471B63059300E836A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDD582B1B63059300E836A8 /* 邯郸规划设计院20层多功能厅 */;
+			targetProxy = DDDD58461B63059300E836A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDDD58391B63059300E836A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDD583A1B63059300E836A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDDD583E1B63059300E836A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDDD583F1B63059300E836A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDDD584D1B63059300E836A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DDDD584E1B63059300E836A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDD58501B63059300E836A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "邯郸规划设计院20层多功能厅/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDDD58511B63059300E836A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "邯郸规划设计院20层多功能厅/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDDD58531B63059300E836A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "邯郸规划设计院20层多功能厅Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/邯郸规划设计院20层多功能厅.app/邯郸规划设计院20层多功能厅";
+			};
+			name = Debug;
+		};
+		DDDD58541B63059300E836A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "邯郸规划设计院20层多功能厅Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/邯郸规划设计院20层多功能厅.app/邯郸规划设计院20层多功能厅";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDD58271B63059300E836A8 /* Build configuration list for PBXProject "邯郸规划设计院20层多功能厅" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD584D1B63059300E836A8 /* Debug */,
+				DDDD584E1B63059300E836A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDD584F1B63059300E836A8 /* Build configuration list for PBXNativeTarget "邯郸规划设计院20层多功能厅" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD58501B63059300E836A8 /* Debug */,
+				DDDD58511B63059300E836A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDDD58521B63059300E836A8 /* Build configuration list for PBXNativeTarget "邯郸规划设计院20层多功能厅Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDD58531B63059300E836A8 /* Debug */,
+				DDDD58541B63059300E836A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDD58241B63059300E836A8 /* Project object */;
+}
