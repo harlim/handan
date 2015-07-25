@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class GCDAsyncSocket;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    GCDAsyncSocket *asyncSocket;
+    BOOL connectState;              //判断状态，给页面发送断开连接的状态
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
++(AppDelegate *)app;
+-(void)sendCom:(NSString *)com;
 
 @end
-

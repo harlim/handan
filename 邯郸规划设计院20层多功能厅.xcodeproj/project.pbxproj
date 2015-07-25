@@ -14,6 +14,13 @@
 		DDDD583D1B63059300E836A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDD583C1B63059300E836A8 /* Images.xcassets */; };
 		DDDD58401B63059300E836A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDD583E1B63059300E836A8 /* LaunchScreen.xib */; };
 		DDDD584C1B63059300E836A8 /* _______20_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD584B1B63059300E836A8 /* _______20_____Tests.m */; };
+		DDDD58571B6366D300E836A8 /* DVDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD58561B6366D300E836A8 /* DVDViewController.m */; };
+		DDDD585A1B63689A00E836A8 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD58591B63689A00E836A8 /* GCDAsyncSocket.m */; };
+		DDDD585D1B6380FD00E836A8 /* ProjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD585C1B6380FD00E836A8 /* ProjViewController.m */; };
+		DDDD58601B638BC500E836A8 /* CamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD585F1B638BC500E836A8 /* CamViewController.m */; };
+		DDDD58631B63930B00E836A8 /* MatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD58621B63930B00E836A8 /* MatrixViewController.m */; };
+		DDDD58661B63B47000E836A8 /* BackgroundAV.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58651B63B47000E836A8 /* BackgroundAV.png */; };
+		DDDD58681B63B75E00E836A8 /* numBtnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58671B63B75E00E836A8 /* numBtnBlack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,18 @@
 		DDDD58451B63059300E836A8 /* 邯郸规划设计院20层多功能厅Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "邯郸规划设计院20层多功能厅Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDD584A1B63059300E836A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDDD584B1B63059300E836A8 /* _______20_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______20_____Tests.m"; sourceTree = "<group>"; };
+		DDDD58551B6366D300E836A8 /* DVDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDViewController.h; sourceTree = "<group>"; };
+		DDDD58561B6366D300E836A8 /* DVDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDViewController.m; sourceTree = "<group>"; };
+		DDDD58581B63689A00E836A8 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DDDD58591B63689A00E836A8 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		DDDD585B1B6380FD00E836A8 /* ProjViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjViewController.h; sourceTree = "<group>"; };
+		DDDD585C1B6380FD00E836A8 /* ProjViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjViewController.m; sourceTree = "<group>"; };
+		DDDD585E1B638BC500E836A8 /* CamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamViewController.h; sourceTree = "<group>"; };
+		DDDD585F1B638BC500E836A8 /* CamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamViewController.m; sourceTree = "<group>"; };
+		DDDD58611B63930B00E836A8 /* MatrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixViewController.h; sourceTree = "<group>"; };
+		DDDD58621B63930B00E836A8 /* MatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixViewController.m; sourceTree = "<group>"; };
+		DDDD58651B63B47000E836A8 /* BackgroundAV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundAV.png; sourceTree = "<group>"; };
+		DDDD58671B63B75E00E836A8 /* numBtnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numBtnBlack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,7 @@
 		DDDD582E1B63059300E836A8 /* 邯郸规划设计院20层多功能厅 */ = {
 			isa = PBXGroup;
 			children = (
+				DDDD58641B63B45C00E836A8 /* pic */,
 				DDDD58331B63059300E836A8 /* AppDelegate.h */,
 				DDDD58341B63059300E836A8 /* AppDelegate.m */,
 				DDDD58361B63059300E836A8 /* ViewController.h */,
@@ -89,6 +109,16 @@
 				DDDD583C1B63059300E836A8 /* Images.xcassets */,
 				DDDD583E1B63059300E836A8 /* LaunchScreen.xib */,
 				DDDD582F1B63059300E836A8 /* Supporting Files */,
+				DDDD58551B6366D300E836A8 /* DVDViewController.h */,
+				DDDD58561B6366D300E836A8 /* DVDViewController.m */,
+				DDDD58581B63689A00E836A8 /* GCDAsyncSocket.h */,
+				DDDD58591B63689A00E836A8 /* GCDAsyncSocket.m */,
+				DDDD585B1B6380FD00E836A8 /* ProjViewController.h */,
+				DDDD585C1B6380FD00E836A8 /* ProjViewController.m */,
+				DDDD585E1B638BC500E836A8 /* CamViewController.h */,
+				DDDD585F1B638BC500E836A8 /* CamViewController.m */,
+				DDDD58611B63930B00E836A8 /* MatrixViewController.h */,
+				DDDD58621B63930B00E836A8 /* MatrixViewController.m */,
 			);
 			path = "邯郸规划设计院20层多功能厅";
 			sourceTree = "<group>";
@@ -117,6 +147,15 @@
 				DDDD584A1B63059300E836A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDDD58641B63B45C00E836A8 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				DDDD58651B63B47000E836A8 /* BackgroundAV.png */,
+				DDDD58671B63B75E00E836A8 /* numBtnBlack.png */,
+			);
+			name = pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +240,8 @@
 			files = (
 				DDDD583B1B63059300E836A8 /* Main.storyboard in Resources */,
 				DDDD58401B63059300E836A8 /* LaunchScreen.xib in Resources */,
+				DDDD58681B63B75E00E836A8 /* numBtnBlack.png in Resources */,
+				DDDD58661B63B47000E836A8 /* BackgroundAV.png in Resources */,
 				DDDD583D1B63059300E836A8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDD58381B63059300E836A8 /* ViewController.m in Sources */,
+				DDDD585A1B63689A00E836A8 /* GCDAsyncSocket.m in Sources */,
 				DDDD58351B63059300E836A8 /* AppDelegate.m in Sources */,
+				DDDD585D1B6380FD00E836A8 /* ProjViewController.m in Sources */,
+				DDDD58601B638BC500E836A8 /* CamViewController.m in Sources */,
+				DDDD58631B63930B00E836A8 /* MatrixViewController.m in Sources */,
 				DDDD58321B63059300E836A8 /* main.m in Sources */,
+				DDDD58571B6366D300E836A8 /* DVDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
