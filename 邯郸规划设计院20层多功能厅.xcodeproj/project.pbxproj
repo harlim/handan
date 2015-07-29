@@ -21,6 +21,11 @@
 		DDDD58631B63930B00E836A8 /* MatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDD58621B63930B00E836A8 /* MatrixViewController.m */; };
 		DDDD58661B63B47000E836A8 /* BackgroundAV.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58651B63B47000E836A8 /* BackgroundAV.png */; };
 		DDDD58681B63B75E00E836A8 /* numBtnBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58671B63B75E00E836A8 /* numBtnBlack.png */; };
+		DDDD586A1B63E49F00E836A8 /* Proj.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58691B63E49F00E836A8 /* Proj.png */; };
+		DDDD586C1B63E4B100E836A8 /* matrix.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD586B1B63E4B100E836A8 /* matrix.png */; };
+		DDDD586E1B63E4C400E836A8 /* cdrom.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD586D1B63E4C400E836A8 /* cdrom.png */; };
+		DDDD58721B63E76300E836A8 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58711B63E76300E836A8 /* camera.png */; };
+		DDDD58741B63EE1A00E836A8 /* BgFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDD58731B63EE1A00E836A8 /* BgFolder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		DDDD58621B63930B00E836A8 /* MatrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixViewController.m; sourceTree = "<group>"; };
 		DDDD58651B63B47000E836A8 /* BackgroundAV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundAV.png; sourceTree = "<group>"; };
 		DDDD58671B63B75E00E836A8 /* numBtnBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numBtnBlack.png; sourceTree = "<group>"; };
+		DDDD58691B63E49F00E836A8 /* Proj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Proj.png; sourceTree = "<group>"; };
+		DDDD586B1B63E4B100E836A8 /* matrix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matrix.png; sourceTree = "<group>"; };
+		DDDD586D1B63E4C400E836A8 /* cdrom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cdrom.png; sourceTree = "<group>"; };
+		DDDD58711B63E76300E836A8 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		DDDD58731B63EE1A00E836A8 /* BgFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BgFolder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +164,11 @@
 			children = (
 				DDDD58651B63B47000E836A8 /* BackgroundAV.png */,
 				DDDD58671B63B75E00E836A8 /* numBtnBlack.png */,
+				DDDD58691B63E49F00E836A8 /* Proj.png */,
+				DDDD586B1B63E4B100E836A8 /* matrix.png */,
+				DDDD586D1B63E4C400E836A8 /* cdrom.png */,
+				DDDD58711B63E76300E836A8 /* camera.png */,
+				DDDD58731B63EE1A00E836A8 /* BgFolder.png */,
 			);
 			name = pic;
 			sourceTree = "<group>";
@@ -238,9 +253,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDD58741B63EE1A00E836A8 /* BgFolder.png in Resources */,
+				DDDD586A1B63E49F00E836A8 /* Proj.png in Resources */,
+				DDDD586E1B63E4C400E836A8 /* cdrom.png in Resources */,
 				DDDD583B1B63059300E836A8 /* Main.storyboard in Resources */,
 				DDDD58401B63059300E836A8 /* LaunchScreen.xib in Resources */,
+				DDDD58721B63E76300E836A8 /* camera.png in Resources */,
 				DDDD58681B63B75E00E836A8 /* numBtnBlack.png in Resources */,
+				DDDD586C1B63E4B100E836A8 /* matrix.png in Resources */,
 				DDDD58661B63B47000E836A8 /* BackgroundAV.png in Resources */,
 				DDDD583D1B63059300E836A8 /* Images.xcassets in Resources */,
 			);
@@ -395,9 +415,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Yunce Network Technology Co., Ltd.";
 				INFOPLIST_FILE = "邯郸规划设计院20层多功能厅/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aac63f90-fa8f-4a57-b361-3783ffc314a0";
 			};
 			name = Debug;
 		};
@@ -405,9 +428,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Yunce Network Technology Co., Ltd.";
 				INFOPLIST_FILE = "邯郸规划设计院20层多功能厅/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aac63f90-fa8f-4a57-b361-3783ffc314a0";
 			};
 			name = Release;
 		};

@@ -41,6 +41,8 @@
         if ([btn isKindOfClass:[UIButton class]]) {
             btn.layer.cornerRadius = 5.0f;
             btn.layer.masksToBounds = YES;
+            [(UIButton *)btn setBackgroundImage:[UIImage imageNamed:@"numBtnBlack.png"] forState:UIControlStateNormal];
+            [(UIButton *)btn setBackgroundImage:[UIImage imageNamed:@"BgFolder.png"] forState:UIControlStateSelected];
             if (btn.tag <= 1304) {
                 [_matrix1Input addObject:btn];
             }else if (btn.tag <= 1308){
@@ -99,13 +101,19 @@
 - (void)matrix_input:(NSMutableArray *)input withOutput:(NSMutableArray *)output currentInputBtn:(UIButton *)btn{
     for (UIButton *btn_array in input) {
         if (btn == btn_array) {
+             //[btn_array setHighlighted:YES];
             [btn_array setSelected:YES];
+           
+           // [btn_array set]
+
         }else{
             [btn_array setSelected:NO];
+             //[btn_array setHighlighted:NO];
         }
     }
     for (UIButton *btn_array in output) {
             [btn_array setSelected:NO];
+        //[btn_array setHighlighted:NO];
     
     }
     
